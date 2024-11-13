@@ -15,8 +15,8 @@
     "importHelpers": true,
     "types": [],
     "lib": [
-      "dom",
-      "es2015"
+      "es2019",
+      "dom"
     ]
   },
   "files": [
@@ -26,6 +26,7 @@
     "skipTemplateCodegen": true,
     "strictMetadataEmit": true,
     "fullTemplateTypeCheck": true,
-    "enableResourceInlining": true
+    "enableResourceInlining": true,
+    "compilationMode": "partial"
   }
 }
